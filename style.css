@@ -1,48 +1,83 @@
-/* =====Global Reset======= */
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-body{
-    background-color: rgba(48, 2, 2, 0.471);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
-}
-
-button{
-    font-family: inherit;
-     background: #287ee8;
-    color: rgb(248, 244, 244);
-    font-weight: bold;
-    border: 0;
-    border-radius: 8px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-
-
-.topbar{
-    min-height: 82px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap:20px;
-    padding: 15px 4%;
-    background: rgb(2, 48, 76);
-    border-bottom: 1px solid rgb(246, 238, 5);
-}
-
-.brand{
-    display: flex;
-    gap:12px;
-    align-items: center;
-}
+      * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: rgba(48, 2, 2, 0.471);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 100vh;
+        }
+        button {
+            font-family: inherit;
+            background: rgb(246, 221, 29);
+            color: brown;
+            font-weight: bold;
+            border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .topbar {
+            min-height: 82px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 15px 4%;
+            background-color: red;
+            border-bottom: 1px solid rgba(255, 0, 0, 0.938);
+        }
+        .brand {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+        .brand-logo {
+            background-color: rgb(0, 0, 0);
+            border-radius: 10px;
+            padding: 12px 16px;
+            font-weight: bold;
+            font-size: 23px;
+        }
+        .brand h1 {
+            color: rgb(17, 12, 155);
+            letter-spacing: 3px;
+        }
+        .brand p {
+            color: rgb(17, 12, 155);
+            font-size: 9px;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            color: aquamarine;
+            font-size: 13px;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            color: rgb(0, 255, 17);
+        }
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color:#39d6a0;
+        }
+        .online-dot {
+            width: 10px;
+            height: 10px;
+            background-color: #39d6a0;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        #clock{
+            color: #ffd700;
+            font-family: monospace;
+            margin-left: 10px;
+        }
